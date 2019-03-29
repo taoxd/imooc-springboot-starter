@@ -11,7 +11,7 @@ public class User {
 	private String name;
 
 	// 忽略
-	@JsonIgnore
+	//@JsonIgnore
 	private String password;
 	private Integer age;
 
