@@ -17,10 +17,10 @@ public class UserController {
 	//@ResponseBody
 	public User getUser() {
 		User u = new User();
-		u.setName("imooc");
-		u.setAge(18);
+		u.setName("imooc3");
+		u.setAge(19);
 		u.setBirthday(new Date());
-		u.setPassword("123456");
+		u.setPassword("1234567");
 		return u;
 	}
 	
